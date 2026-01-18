@@ -168,3 +168,65 @@ header {
 .btn img {
   width: 18px;
 }
+/*main section1*/
+ .about-section {
+        text-align: center;
+        padding: 80px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .about-section h2 {
+        color: #f5edf5;
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .about-section p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #ccc;
+        margin-bottom: 50px;
+    }
+
+    .stats {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 30px;
+    }
+
+    .stat {
+        text-align: center;
+    }
+    .stat h3 i {
+    font-size: 22px;  
+    line-height: 1;
+    }
+
+
+    .stat h3  {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 32px;
+    color: #00ff7f;
+    margin: 0;
+    }
+
+    .stat p {
+        font-size: 14px;
+        color: #ccc;
+        margin-top: 5px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+        .stats {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .stat h3 {
+            font-size: 28px;
+        }
+    }
