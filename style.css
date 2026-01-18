@@ -58,6 +58,7 @@ header {
   padding: 10px 22px;
   border-radius: 25px;
   color: white;
+  gap: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,4 +69,102 @@ header {
 
 .btn:hover {
   transform: scale(1.05);
+}
+.hero {
+  min-height: 100vh;
+  background: url("image/hero-bg.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-container {
+  max-width: 900px;
+  padding: 40px;
+}
+
+/* Circle */
+.hero-circle {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto 30px;
+}
+
+.hero-circle img {
+  width: 100%;
+}
+
+/* Microphone */
+.microphone {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.microphone img {
+  width: 80px;
+}
+
+/* NEW badge */
+.badge {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  background: #00ff9c;
+  color: black;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Title */
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hero-title span {
+  color: #ffffff;
+}
+
+/* Subtitle */
+.hero-subtitle {
+  color: #cfcfe6;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+/* Spotify button */
+.spotify {
+  background: linear-gradient(90deg, #ff00ff, #ff9900);
+  color: white;
+}
+
+/* Subscribe button */
+.subscribe {
+  background: transparent;
+  border: 1px solid #00ff9c;
+  color: #00ff9c;
+}
+
+/* Button icons */
+.btn img {
+  width: 18px;
 }
