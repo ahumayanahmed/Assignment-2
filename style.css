@@ -520,7 +520,6 @@ gap: 30px;
 
 
 /* Responsive */
-@media(max-width:576px){
     @media (max-width: 576px) {
     .nav-links {
         position: absolute;
