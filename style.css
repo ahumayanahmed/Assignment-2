@@ -521,6 +521,11 @@ gap: 30px;
 
 /* Responsive */
     @media (max-width: 576px) {
+      .nav {
+  padding-left: 20px;
+  padding-right: 30px;
+  
+}
     .nav-links {
         position: absolute;
         top: 60px;
@@ -531,10 +536,6 @@ gap: 30px;
         padding: 15px;
         border-radius: 6px;
         display: none;
-    }
-
-    .nav-links.show {
-        display: flex;
     }
 
     .logo h1{
@@ -548,7 +549,7 @@ gap: 30px;
     background-size: cover; 
   }
 
-}
+
     .host-card{
         flex-direction:column;
         text-align:center;
